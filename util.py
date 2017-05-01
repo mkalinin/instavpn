@@ -12,9 +12,9 @@ def run_command(cmd):
             shell=True))
 
 def check_os():
-    if platform.linux_distribution() != ('Ubuntu', '14.04', 'trusty'):
-        logger.debug('OS: ' + ' '.join(platform.linux_distribution()))
-        return False
+    # if platform.linux_distribution() != ('Ubuntu', '14.04', 'trusty'):
+    #     logger.debug('OS: ' + ' '.join(platform.linux_distribution()))
+    #     return False
     return True
 
 def not_sudo():
